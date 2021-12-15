@@ -18,7 +18,7 @@
     />
 
     <!-- SWIPER CSS -->
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -132,7 +132,7 @@
         </div>
       </section>
 
-      <div class="gift section container" id="gift">
+      <section class="gift section container" id="gift">
         <h2 class="section__title">Share A Gift</h2>
 
         <div class="gift__container grid">
@@ -176,8 +176,63 @@
             <span class="gift__title">Candy Stick</span>
           </article>
         </div>
-      </div>
+      </section>
+
+      <!-- NEW -->
+      <section class="new section container" id="new">
+        <h2 class="section__title">New Gifts</h2>
+
+        <div class="new__container">
+          <div class="swiper new-swiper">
+            <div class="swiper-wrapper">
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new1.png" alt="" class="new__img" />
+                <h3 class="new__price">$95</h3>
+                <span class="new__title">Reindeer</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new2.png" alt="" class="new__img" />
+                <h3 class="new__price">$20</h3>
+                <span class="new__title">Snow Globe</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new3.png" alt="" class="new__img" />
+                <h3 class="new__price">$75</h3>
+                <span class="new__title">Sledge</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+
+              <article class="new__card swiper-slide">
+                <div class="new__overlay"></div>
+                <img src="assets/img/new4.png" alt="" class="new__img" />
+                <h3 class="new__price">$15</h3>
+                <span class="new__title">Christmas Wreath</span>
+                <button class="button new__button">
+                  <i class="bx bx-heart new__icon"></i>
+                </button>
+              </article>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
